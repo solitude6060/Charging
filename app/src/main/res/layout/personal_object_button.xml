@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/addLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+        android:id="@+id/info_dialog_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="新增" /> <!--android:background="@drawable/input_btn_blue"-->
+
+
+    <!--
+        大致上到這裡是可以呈現我們所要的東西了
+        可是因為我在list的最後會加上一個新增的按鈕
+        所以還要在一個xml來顯示新增的按鈕
+        personal_object_button.xml
+    -->
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+
+    <ScrollView
+    android:id="@+id/sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:layout_marginBottom="60dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginLeft="40dp"
+    android:gravity="center">
+       
+        <LinearLayout
+         android:id="@+id/ll_in_sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- 此Layout是主頁面上所要固定的的元件 -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/info_dialog_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:width="2dp"
+        android:height="2dp"
+        android:background="@drawable/blue"
+
+        android:text="返回"
+        /> <!--android:background="@drawable/input_btn_blue"-->
+    <Button
+        android:id="@+id/info_dialog_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/blue"
+
+
+        android:text="確認"
+        /> <!--android:background="@drawable/input_btn_blue"-->
+    <!--android:text="@string/backtrack"-->
+
+       <!--<Button
+           android:id="@+id/info_dialog_cancel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/input_btn_blue"
+           android:text="@string/backtrack" />
+
+       <Button
+           android:id="@+id/info_dialog_confirm"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/input_btn_blue"
+           android:text="@string/connfirmed" />-->
+    </LinearLayout>
+    </RelativeLayout>
